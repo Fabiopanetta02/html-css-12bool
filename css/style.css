@@ -14,10 +14,18 @@ h2{
   font-weight: bold;
 }
 
-div[class^='col']{
+.row > [class^='col']{
 min-height: 100px;
 background-color: var(--blue);
 margin: 1px 0;
+}
+
+.row .row{
+  padding: 10px;
+}
+
+.row .row > [class^='col']{
+  background-color: var(--green);
 }
 
 
