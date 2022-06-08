@@ -20,6 +20,10 @@ background-color: var(--blue);
 margin: 1px 0;
 }
 
+.row > .col-6-large{
+  min-height: 200px;
+}
+
 .row .row{
   padding: 10px;
 }
