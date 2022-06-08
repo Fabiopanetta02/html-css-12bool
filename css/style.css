@@ -1,8 +1,27 @@
+/* Root */
+:root{
+  --blue: #006CFA;
+  --green: #00E165;
+}
 
 /* Generics */
+body{
+  font-family: sans-serif;
+}
+
+h2{
+  text-align: left;
+  font-weight: bold;
+}
+
+div[class^='col']{
+min-height: 100px;
+background-color: var(--blue);
+margin: 1px 0;
+}
+
 
 /* Utils */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
+.text-white{
+  color: #fff;
 }
